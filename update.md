@@ -56,7 +56,7 @@ Copy the template below, replace the bracketed items with your real information,
   },
   "socialLinks": {
     "github": "https://github.com/your-username",
-    "linkedin": "https://linkedin.com/in/your-profile",
+    "linkedin": "https://www.linkedin.com/in/krishnakumar00028",
     "email": "yourname@example.com",
     "leetcode": "https://leetcode.com/your-username"
   },
