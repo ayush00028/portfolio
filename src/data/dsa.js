@@ -7,28 +7,28 @@
 
 export const dsaData = {
   title: "Problem Solving & DSA",
-  subtitle: "Strengthening computational thinking and foundational algorithms through regular practice.",
-  overview: "Actively solving algorithmic problems focusing on Arrays, Linked Lists, Matrix manipulations, and recursion. Developing structured solutions with clean time & space complexity analysis.",
+  subtitle: "Strengthening computational thinking and foundational algorithms through continuous practice.",
+  overview: "Actively solving algorithmic problems focusing on Arrays, Linked Lists, Matrix manipulations, and recursion. Developing structured solutions with clean time & space complexity analysis in Java.",
   focusAreas: [
     {
-      topic: "Arrays & Strings",
+      topic: "Arrays & Two Pointers",
       status: "Active Practice",
-      notes: "Two pointers, sliding window, and rotational algorithms"
+      notes: "Sliding window, subarray sums, and in-place transformations"
     },
     {
-      topic: "Linked Lists & Pointers",
-      status: "Applied",
-      notes: "Cycle detection, fast & slow pointers, and node manipulation"
+      topic: "Linked Lists & Fast/Slow Pointers",
+      status: "Mastered",
+      notes: "Cycle detection, reversals, and pointer manipulations"
     },
     {
-      topic: "Matrices & 2D Arrays",
+      topic: "Matrix & 2D Grid Traversals",
       status: "Practiced",
-      notes: "Spiral traversal, matrix rotation, and diagonal calculations"
+      notes: "Spiral traversal, matrix rotations (K times), and diagonal sums"
     },
     {
-      topic: "Time & Space Complexity",
-      status: "Continuous",
-      notes: "Big-O efficiency analysis and iterative optimizations"
+      topic: "Binary Search & Divide/Conquer",
+      status: "Core Focus",
+      notes: "Rotated sorted array searches, boundary evaluations, and logarithmic search"
     }
   ],
   profiles: [
@@ -41,12 +41,12 @@ export const dsaData = {
       badge: "Algorithms & DSA"
     },
     {
-      platform: "GitHub Repositories",
-      url: "https://github.com/ayush00028",
+      platform: "GitHub CodeExpo",
+      url: "https://github.com/ayush00028/CodeExpo",
       handle: "@ayush00028",
-      label: "GitHub Profile",
-      status: "Code Hub",
-      badge: "Source Code & Projects"
+      label: "CodeExpo Repository",
+      status: "Algorithms Hub",
+      badge: "Java Problem Solutions"
     }
   ]
 };

@@ -2,49 +2,50 @@
  * =========================================================================
  * PROJECTS DATA CONFIGURATION
  * =========================================================================
- * Modify, remove, or add new projects here.
+ * Real projects verified and sourced directly from GitHub repositories.
  */
 
 export const projects = [
   {
     id: "skills2job",
     title: "Skills2Job",
-    badge: "Featured Project",
+    badge: "AI Recruitment Platform",
     isPlaceholder: false,
-    description: "[ADD SHORT PROJECT DESCRIPTION HERE]",
-    technologies: ["React", "JavaScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/ayush00028/Skills2Job",
-    liveUrl: "[ADD LIVE DEMO URL]",
+    description: "AI-powered career matchmaking and recruitment platform built to solve algorithmic rejection through 5-factor explainable compatibility scoring, ATS resume diagnostics, and dynamic skill-gap roadmaps.",
+    technologies: ["Next.js 14", "TypeScript", "Python", "FastAPI", "SQLAlchemy", "Tailwind CSS"],
+    githubUrl: "https://github.com/ayush00028/skills2job",
+    liveUrl: "",
     highlights: [
-      "Designed with practical real-world utility in mind",
-      "Focused on clean code architecture and responsive UI"
+      "5-Factor explainable matching engine with vector cosine similarity scoring",
+      "Interactive recruiter portal, applicant Kanban tracker, and AI mock interview simulator"
+    ]
+  },
+  {
+    id: "jansetu",
+    title: "JanSetu — Citizen Service Navigator",
+    badge: "Public Tech & AI",
+    isPlaceholder: false,
+    description: "AI-assisted web platform helping citizens discover government schemes, assess eligibility criteria, manage digital documents, and track public service applications seamlessly.",
+    technologies: ["Python 3.12", "FastAPI", "SQLite", "Gemini AI", "Pydantic"],
+    githubUrl: "https://github.com/ayush00028/JanSetu-AI-Citizen-Scheme-Navigator",
+    liveUrl: "",
+    highlights: [
+      "Gemini AI conversational assistant for intelligent scheme recommendations",
+      "Automated eligibility pathway engine with secure document profile management"
     ]
   },
   {
     id: "code-expo",
-    title: "CodeExpo",
-    badge: "DSA & Algorithms",
+    title: "CodeExpo — Algorithms & DSA",
+    badge: "Algorithms & Java",
     isPlaceholder: false,
-    description: "Personal repository of data structures, algorithms, and practical programming solutions implemented across Java, C, and Web Development.",
-    technologies: ["Java", "DSA", "Algorithms", "C", "HTML/CSS"],
+    description: "Extensive repository of algorithmic solutions and data structure implementations in Java and C, tackling classic computational problems and interview patterns.",
+    technologies: ["Java", "DSA", "Algorithms", "C", "OOP Design"],
     githubUrl: "https://github.com/ayush00028/CodeExpo",
     liveUrl: "",
     highlights: [
-      "Implementations of Linked Lists, Binary Search, Matrix algorithms, and sorting",
-      "Clean object-oriented problem-solving and structured code patterns"
-    ]
-  },
-  {
-    id: "project-3",
-    title: "[PROJECT 3]",
-    badge: "Upcoming",
-    isPlaceholder: true,
-    description: "[ADD SHORT PROJECT DESCRIPTION HERE]",
-    technologies: ["[TECHNOLOGY 1]", "[TECHNOLOGY 2]"],
-    githubUrl: "https://github.com/ayush00028",
-    liveUrl: "[ADD LIVE DEMO URL]",
-    highlights: [
-      "Planned web / algorithmic project"
+      "Implementations of cycle detection, matrix spiral rotations, binary search, and linked list operations",
+      "Focused on Big-O algorithmic efficiency and modular code structure"
     ]
   }
 ];

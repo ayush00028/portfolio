@@ -2,38 +2,32 @@
  * =========================================================================
  * CURRENT LEARNING / EXPLORING CONFIGURATION
  * =========================================================================
- * Highlights ongoing learning priorities to reflect continuous growth.
+ * Highlights ongoing engineering priorities reflecting continuous growth.
  */
 
 export const learningData = {
   title: "Currently Exploring",
-  subtitle: "Embracing a growth mindset with dedicated time spent expanding engineering breadth and depth.",
+  subtitle: "Dedicated to expanding architectural depth across AI-augmented backends and advanced algorithmic paradigms.",
   items: [
     {
-      title: "Web Development",
-      description: "Deepening interactive UI techniques, modern responsive architecture, and web component structure.",
+      title: "Vector Databases & Semantic Retrieval",
+      description: "Exploring pgvector and Pinecone to scale vector cosine similarity matching for AI-driven platforms like Skills2Job.",
+      status: "Active Focus"
+    },
+    {
+      title: "Spring Boot & Enterprise Java",
+      description: "Bridging Java DSA fundamentals with robust enterprise backend services, dependency injection, and microservices.",
       status: "In Progress"
     },
     {
-      title: "Java Programming",
-      description: "Strengthening core object-oriented principles, robust exception handling, and clean code paradigms.",
-      status: "Active"
-    },
-    {
-      title: "Data Structures & Algorithms",
-      description: "Practicing problem-solving patterns and analyzing algorithmic complexity for scalable solutions.",
+      title: "Advanced Graph Algorithms & Dynamic Programming",
+      description: "Practicing complex graph traversals (Dijkstra, Topological Sort) and multi-dimensional DP on LeetCode.",
       status: "Daily Routine"
     },
     {
-      title: "Building Practical Projects",
-      description: "Transforming theoretical understanding into functional, tangible applications like Skills2Job.",
+      title: "FastAPI High-Performance Async Architecture",
+      description: "Benchmarking asynchronous Python endpoints, connection pooling, and background task workers in JanSetu.",
       status: "Building"
-    },
-    {
-      title: "[ADD CURRENT FOCUS]",
-      description: "[ADD DESCRIPTION OF WHAT YOU ARE CURRENTLY EXPLORING]",
-      status: "Next Horizon",
-      isPlaceholder: true
     }
   ]
 };

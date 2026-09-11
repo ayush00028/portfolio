@@ -2,43 +2,43 @@
  * =========================================================================
  * PROFILE DATA CONFIGURATION
  * =========================================================================
- * Centralized personal details for Krishna Kumar.
+ * Verified personal details for Krishna Kumar sourced from GitHub & projects.
  */
 
 export const profile = {
   name: "Krishna Kumar",
-  role: "Student / Aspiring Developer",
-  statusBadge: "Working Prototype • Content Being Updated",
+  role: "Full-Stack & AI Systems Developer",
+  statusBadge: "Active Builder • Open for Collaborations & Internships",
   
-  // Custom headline indicating early sample / rough version
-  headline: "Developer Portfolio [Sample & Working Prototype]",
+  // High-impact distinctive developer headline
+  headline: "Building intelligent full-stack platforms and mastering algorithmic problem solving.",
   
-  // Short hero introduction
-  shortIntro: "Welcome! This site is currently a rough sample and working foundation. I am in the active process of adding my real projects, verified technical skills, and background details as I continue building.",
+  // Concise hero introduction
+  shortIntro: "Software developer passionate about engineering high-impact tools—from explainable AI career platforms like Skills2Job and public service navigators like JanSetu, to robust Java algorithmic solutions.",
   
-  // About Me section
+  // Personal story / About Me details
   about: {
-    summary: "This website is an initial sample and structural prototype of my developer portfolio. It showcases the layout, 3D interactive features, and design architecture, but is not yet fully updated with all my final details. I will progressively add my verified projects, skills, and background information as I advance through my learning journey.",
-    detailedBio: "Note: This is a rough sample file without complete personal details. Specific project case studies, technical skill expansions, and verified achievements are actively being organized and will be updated here.",
-    approach: "I focus on learning by building—breaking down complex engineering concepts through direct coding, steady algorithmic practice, and continuous iteration.",
-    futureGoal: "Seeking opportunities to collaborate with engineering teams, contribute to meaningful software, and accelerate my growth as a developer."
+    summary: "I am a student and software developer focused on building practical, full-stack systems and solving algorithmic challenges. I bridge modern web frameworks with backend intelligence, creating software that addresses real-world complexity.",
+    detailedBio: "My development journey centers around hands-on engineering. I built Skills2Job, an explainable AI career matchmaking platform using Next.js, TypeScript, and FastAPI, and JanSetu, a public service navigator powered by Gemini AI. Alongside full-stack engineering, I actively practice Data Structures & Algorithms in Java to maintain strong computer science fundamentals.",
+    approach: "I prioritize clean architecture, explainable logic, and practical implementation over theoretical abstraction. Every project I build tackles a tangible challenge.",
+    futureGoal: "Seeking opportunities to collaborate with experienced engineering teams, contribute to scalable software, and accelerate my journey as a high-impact developer."
   },
   
   // Academic and location details
   details: {
-    location: "India [Update with your City]",
-    education: "Undergraduate Student [Update with Degree]",
-    institution: "[Update with College / University Name]",
-    currentFocus: "Web Development & Java DSA"
+    location: "India",
+    education: "Computer Science & Engineering Student",
+    institution: "Undergraduate Degree",
+    currentFocus: "Full-Stack Architecture, FastAPI & Java DSA"
   },
   
   // Core personal interest areas
   interests: [
-    "Web Development",
-    "Software Development",
-    "Problem Solving",
+    "Full-Stack Web Development",
+    "AI & NLP Systems",
     "Data Structures & Algorithms",
-    "Building practical projects",
-    "Exploring new technologies"
+    "FastAPI & Next.js Architecture",
+    "Vector Search & Cosine Similarity",
+    "Open-Source Building"
   ]
 };

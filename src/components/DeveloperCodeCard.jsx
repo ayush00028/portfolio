@@ -10,14 +10,14 @@ export default function DeveloperCodeCard() {
   const codeString = `// Krishna.java
 public class Developer {
     String name = "Krishna Kumar";
-    String role = "Student & Aspiring Developer";
-    String[] coreStack = { "Java", "JavaScript", "HTML/CSS", "DSA" };
+    String role = "Full-Stack & AI Systems Developer";
+    String[] coreStack = { "Java", "Python", "TypeScript", "FastAPI", "Next.js", "DSA" };
 
     public void buildFuture() {
         while (true) {
-            learnContinuous();
-            solveProblems();
-            buildPracticalTools();
+            engineerIntelligentPlatforms(); // Skills2Job & JanSetu
+            solveAlgorithmicChallenges();  // CodeExpo & LeetCode
+            continuouslyImprove();
         }
     }
 }`;
@@ -37,7 +37,7 @@ public class Developer {
     setTimeout(() => {
       soundFx.playSuccess();
       setIsRunning(false);
-      setOutput(">> Compiling Krishna.java... [OK]\n>> Output: Continuous learning loop initiated. Ready for new challenges!");
+      setOutput(">> Compiling Krishna.java... [OK]\n>> Stack: Java • Python • FastAPI • TypeScript • Next.js • DSA\n>> Status: Platforms live. Continuous learning loop active!");
     }, 600);
   };
 
@@ -83,13 +83,13 @@ public class Developer {
         <div><span className="text-slate-500">// Krishna.java</span></div>
         <div><span className="text-indigo-400">public class</span> <span className="text-amber-300 font-semibold">Developer</span> &#123;</div>
         <div className="pl-4"><span className="text-indigo-400">String</span> name = <span className="text-emerald-300">"Krishna Kumar"</span>;</div>
-        <div className="pl-4"><span className="text-indigo-400">String</span> role = <span className="text-emerald-300">"Student & Aspiring Developer"</span>;</div>
-        <div className="pl-4"><span className="text-indigo-400">String</span>[] coreStack = &#123; <span className="text-emerald-300">"Java"</span>, <span className="text-emerald-300">"JavaScript"</span>, <span className="text-emerald-300">"HTML/CSS"</span>, <span className="text-emerald-300">"DSA"</span> &#125;;</div>
+        <div className="pl-4"><span className="text-indigo-400">String</span> role = <span className="text-emerald-300">"Full-Stack & AI Systems Developer"</span>;</div>
+        <div className="pl-4"><span className="text-indigo-400">String</span>[] coreStack = &#123; <span className="text-emerald-300">"Java"</span>, <span className="text-emerald-300">"Python"</span>, <span className="text-emerald-300">"TypeScript"</span>, <span className="text-emerald-300">"FastAPI"</span>, <span className="text-emerald-300">"DSA"</span> &#125;;</div>
         <div className="pl-4 mt-2"><span className="text-indigo-400">public void</span> <span className="text-cyan-400 font-semibold">buildFuture</span>() &#123;</div>
         <div className="pl-8"><span className="text-indigo-400">while</span> (<span className="text-amber-400">true</span>) &#123;</div>
-        <div className="pl-12 text-slate-400">learnContinuous();</div>
-        <div className="pl-12 text-slate-400">solveProblems();</div>
-        <div className="pl-12 text-cyan-300 font-medium">buildPracticalTools();</div>
+        <div className="pl-12 text-slate-400">engineerIntelligentPlatforms(); <span className="text-slate-500">// Skills2Job & JanSetu</span></div>
+        <div className="pl-12 text-slate-400">solveAlgorithmicChallenges();   <span className="text-slate-500">// CodeExpo & LeetCode</span></div>
+        <div className="pl-12 text-cyan-300 font-medium">continuouslyImprove();</div>
         <div className="pl-8">&#125;</div>
         <div className="pl-4">&#125;</div>
         <div>&#125;</div>
