@@ -2,32 +2,43 @@
  * =========================================================================
  * CURRENT LEARNING / EXPLORING CONFIGURATION
  * =========================================================================
- * Highlights ongoing engineering priorities reflecting continuous growth.
+ * Highlights web and backend engineering skills currently being learned
+ * in parallel and implemented through hands-on project building.
  */
 
 export const learningData = {
-  title: "Currently Exploring",
-  subtitle: "Dedicated to expanding architectural depth across AI-augmented backends and advanced algorithmic paradigms.",
+  title: "Currently Exploring & Learning",
+  subtitle: "I believe in continuous learning by doing. Here are the web, backend, and engineering technologies I am actively learning, experimenting with, and implementing across my projects.",
   items: [
     {
-      title: "Vector Databases & Semantic Retrieval",
-      description: "Exploring pgvector and Pinecone to scale vector cosine similarity matching for AI-driven platforms like Skills2Job.",
-      status: "Active Focus"
+      title: "Next.js & Modern Web Architecture",
+      description: "Actively learning the App Router paradigm, server vs. client components, and page routing by building interactive views in Skills2Job.",
+      status: "Currently Learning"
     },
     {
-      title: "Spring Boot & Enterprise Java",
-      description: "Bridging Java DSA fundamentals with robust enterprise backend services, dependency injection, and microservices.",
+      title: "FastAPI & Async Python Backends",
+      description: "Learning how to build asynchronous REST APIs, define Pydantic validation schemas, and connect databases through hands-on work in JanSetu.",
+      status: "Hands-on Learning"
+    },
+    {
+      title: "React Component & State Management",
+      description: "Deepening my understanding of component lifecycles, custom hooks, and modular UI structure to write clean, reusable frontend code.",
       status: "In Progress"
     },
     {
-      title: "Advanced Graph Algorithms & Dynamic Programming",
-      description: "Practicing complex graph traversals (Dijkstra, Topological Sort) and multi-dimensional DP on LeetCode.",
-      status: "Daily Routine"
+      title: "Tailwind CSS & Responsive Layouts",
+      description: "Experimenting with utility-first styling, dark/light theme systems, mobile-first breakpoints, and subtle UI micro-interactions.",
+      status: "Active Practice"
     },
     {
-      title: "FastAPI High-Performance Async Architecture",
-      description: "Benchmarking asynchronous Python endpoints, connection pooling, and background task workers in JanSetu.",
-      status: "Building"
+      title: "REST APIs & Client-Server Contracts",
+      description: "Learning proper HTTP method design, status codes, error handling conventions, and structured JSON data flow between client and server.",
+      status: "Learning & Applying"
+    },
+    {
+      title: "TypeScript & Type Safety",
+      description: "Transitioning from JavaScript into TypeScript—learning interfaces, union types, and compile-time safety to make codebases more robust.",
+      status: "Exploring & Adopting"
     }
   ]
 };

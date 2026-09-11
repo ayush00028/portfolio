@@ -10,14 +10,15 @@ export default function DeveloperCodeCard() {
   const codeString = `// Krishna.java
 public class Developer {
     String name = "Krishna Kumar";
-    String role = "Full-Stack & AI Systems Developer";
-    String[] coreStack = { "Java", "Python", "TypeScript", "FastAPI", "Next.js", "DSA" };
+    String role = "Lifelong Learner & Aspiring Developer";
+    String[] coreFoundations = { "Java", "Python", "C", "Git/GitHub", "DSA" };
+    String[] currentlyLearning = { "Next.js", "FastAPI", "React", "TypeScript", "Tailwind" };
 
     public void buildFuture() {
         while (true) {
-            engineerIntelligentPlatforms(); // Skills2Job & JanSetu
-            solveAlgorithmicChallenges();  // CodeExpo & LeetCode
-            continuouslyImprove();
+            learnInParallel();
+            buildPracticalPlatforms(); // Skills2Job & JanSetu
+            solveAlgorithmicChallenges();  // LeetCode
         }
     }
 }`;
@@ -37,7 +38,7 @@ public class Developer {
     setTimeout(() => {
       soundFx.playSuccess();
       setIsRunning(false);
-      setOutput(">> Compiling Krishna.java... [OK]\n>> Stack: Java • Python • FastAPI • TypeScript • Next.js • DSA\n>> Status: Platforms live. Continuous learning loop active!");
+      setOutput(">> Compiling Krishna.java... [OK]\n>> Core Foundations: Java • Python • C • Git/GitHub • DSA\n>> Currently Learning: Next.js • FastAPI • React • TypeScript • Tailwind\n>> Status: Learning in parallel & actively implementing in projects!");
     }, 600);
   };
 
@@ -83,13 +84,14 @@ public class Developer {
         <div><span className="text-slate-500">// Krishna.java</span></div>
         <div><span className="text-indigo-400">public class</span> <span className="text-amber-300 font-semibold">Developer</span> &#123;</div>
         <div className="pl-4"><span className="text-indigo-400">String</span> name = <span className="text-emerald-300">"Krishna Kumar"</span>;</div>
-        <div className="pl-4"><span className="text-indigo-400">String</span> role = <span className="text-emerald-300">"Full-Stack & AI Systems Developer"</span>;</div>
-        <div className="pl-4"><span className="text-indigo-400">String</span>[] coreStack = &#123; <span className="text-emerald-300">"Java"</span>, <span className="text-emerald-300">"Python"</span>, <span className="text-emerald-300">"TypeScript"</span>, <span className="text-emerald-300">"FastAPI"</span>, <span className="text-emerald-300">"DSA"</span> &#125;;</div>
+        <div className="pl-4"><span className="text-indigo-400">String</span> role = <span className="text-emerald-300">"Lifelong Learner & Aspiring Developer"</span>;</div>
+        <div className="pl-4"><span className="text-indigo-400">String</span>[] coreFoundations = &#123; <span className="text-emerald-300">"Java"</span>, <span className="text-emerald-300">"Python"</span>, <span className="text-emerald-300">"C"</span>, <span className="text-emerald-300">"Git"</span>, <span className="text-emerald-300">"DSA"</span> &#125;;</div>
+        <div className="pl-4"><span className="text-indigo-400">String</span>[] currentlyLearning = &#123; <span className="text-emerald-300">"Next.js"</span>, <span className="text-emerald-300">"FastAPI"</span>, <span className="text-emerald-300">"React"</span>, <span className="text-emerald-300">"TypeScript"</span>, <span className="text-emerald-300">"Tailwind"</span> &#125;;</div>
         <div className="pl-4 mt-2"><span className="text-indigo-400">public void</span> <span className="text-cyan-400 font-semibold">buildFuture</span>() &#123;</div>
         <div className="pl-8"><span className="text-indigo-400">while</span> (<span className="text-amber-400">true</span>) &#123;</div>
-        <div className="pl-12 text-slate-400">engineerIntelligentPlatforms(); <span className="text-slate-500">// Skills2Job & JanSetu</span></div>
-        <div className="pl-12 text-slate-400">solveAlgorithmicChallenges();   <span className="text-slate-500">// CodeExpo & LeetCode</span></div>
-        <div className="pl-12 text-cyan-300 font-medium">continuouslyImprove();</div>
+        <div className="pl-12 text-cyan-300 font-medium">learnInParallel();</div>
+        <div className="pl-12 text-slate-400">buildPracticalPlatforms(); <span className="text-slate-500">// Skills2Job & JanSetu</span></div>
+        <div className="pl-12 text-slate-400">solveAlgorithmicChallenges(); <span className="text-slate-500">// LeetCode</span></div>
         <div className="pl-8">&#125;</div>
         <div className="pl-4">&#125;</div>
         <div>&#125;</div>
